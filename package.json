@@ -1,0 +1,21 @@
+{
+  "name": "mern-todolist",
+  "version": "1.0.0",
+  "description": "to do list app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.0",
+    "config": "^3.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.1",
+    "nodemon": "^1.18.11"
+  }
+}
